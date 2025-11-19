@@ -1,0 +1,4 @@
+-std=gnu99
+-I/workspaces/jumpy-dumpy
+-I/home/codespace/raylib/src
+-I/home/codespace/emsdk/upstream/emscripten/cache/sysroot/include

@@ -1,0 +1,43 @@
+BasedOnStyle: LLVM
+
+# --- Indentation and Alignment ---
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+
+# --- Braces and Blocks ---
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+
+# --- Line and Spacing ---
+ColumnLimit: 0
+SpacesInParentheses: false
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeAssignmentOperators: true
+
+# --- Includes ---
+IncludeBlocks: Preserve
+SortIncludes: false
+
+# --- Pointers and References ---
+PointerAlignment: Left
+
+# --- Miscellaneous ---
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: false
+IndentCaseLabels: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+InsertBraces: true
+AllowAllArgumentsOnNextLine: false
+BinPackArguments: true
+BinPackParameters: true
+
+# --- Comments ---
+ReflowComments: false
